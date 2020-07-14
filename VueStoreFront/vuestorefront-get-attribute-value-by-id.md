@@ -33,7 +33,7 @@ export default {
 ```
 2. In your template `src/themes/default/components/core/ProductDetail.vue` , modify the `export` node so it contains:
 ```
-import fakeLabel from 'theme/mixins/attributeValueById'
+import attributeValueById from 'theme/mixins/attributeValueById'
 
 export default {
   mixins: [ attributeValueById ],
